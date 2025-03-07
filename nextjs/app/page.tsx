@@ -9,7 +9,18 @@ export default function Home() {
 
       <div className="text-3xl">Welcome to Next.JS</div>
       <Hello/>
-      <Link href="/about" >About Page</Link>
+      <br />
+      <div className="aboutPage">
+          <Link href="/about" >About Page</Link>
+      </div>
+
+      <div className="usersPage">
+          <Link href="/dashboard/users" >Uers Page</Link>
+      </div>
+
+      <div className="analyticsPage">
+          <Link href="/dashboard/analytics" >Analytics Page</Link>
+      </div>
     </>
     
   )
