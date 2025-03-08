@@ -10,7 +10,7 @@ const page = ({params}: { params: {id: string}}) => {
   return (
     <>
     <div>
-        <h1>USER {id} DETAIL PAGE </h1>
+        <h1 className="text-4xl bg-gray-600 text-orange-300 shadow-lg p-3">USER {id} DETAIL PAGE </h1>
         <p>This is the user detail page.</p>
     </div>
     <div className="homePageLink">
