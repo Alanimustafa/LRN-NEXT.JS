@@ -1,3 +1,5 @@
+// layout.tsx run as parent on all pages
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -27,6 +29,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <h1 className="text-3xl ">ROOT</h1>
+
+        <footer >All right reserved</footer>
         {children}
       </body>
     </html>

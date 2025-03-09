@@ -10,7 +10,6 @@ const page = () => {
 
     <Link href="/">Home Page</Link>
 
-
     <div className="usersList">
       <h2>User List</h2>
       <ul className="mt-10">
